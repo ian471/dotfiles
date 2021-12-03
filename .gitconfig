@@ -1,0 +1,27 @@
+[alias]
+    co = checkout
+    b = branch -a
+    st = status
+    pop = stash pop
+    ff = merge --ff-only
+    up = fetch --all
+    wipe = !sh -c \"git reset --hard && git clean -df\"
+    nuke = !sh -c \"git reset --hard && git clean -dfx\"
+    amend = commit --amend -C HEAD
+    back = reset HEAD^
+[clean]
+    requireForce = false
+[push]
+    default = current
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[diff]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code --wait $MERGED
+[merge]
+	tool = vscode
+[rebase]
+    autosquash = true
+[branch]
+    autosetupmerge = always
