@@ -1,0 +1,6 @@
+# arrow up/down filtered search
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+# List all matches in case multiple possible completions are possible
+set show-all-if-ambiguous on
