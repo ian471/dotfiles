@@ -11,6 +11,8 @@
     back = reset HEAD^
 [clean]
     requireForce = false
+[pull]
+    ff = only
 [push]
     default = current
 [difftool "vscode"]
