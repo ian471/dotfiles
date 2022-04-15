@@ -1,3 +1,9 @@
+# In .bashrc:
+#
+# if [ -f ~/.bash_aliases ]; then
+#     . ~/.bash_aliases
+# fi
+
 alias cd-='cd -'
 alias cd..='cd ..'
 alias du='du -ahx --max-depth=1'

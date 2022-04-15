@@ -1,3 +1,8 @@
+[user]
+	name = Ian Henckel
+	# email =
+[credential]
+	helper = cache
 [alias]
     co = checkout
     b = branch -a
