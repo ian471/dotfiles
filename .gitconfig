@@ -1,6 +1,6 @@
 [user]
 	name = Ian Henckel
-	# email =
+	email = ian471.github@ianhenckel.com
 [credential]
 	helper = cache
 [alias]
