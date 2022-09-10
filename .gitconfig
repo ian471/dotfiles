@@ -7,6 +7,7 @@
     co = checkout
     b = branch -a
     st = status
+    po = push --set-upstream origin
     pop = stash pop
     ff = merge --ff-only
     up = fetch --all
