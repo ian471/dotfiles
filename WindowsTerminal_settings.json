@@ -1,12 +1,12 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "profiles": 
+    "profiles":
     {
-        "defaults": 
+        "defaults":
         {
             "closeOnExit": "always"
-        },
+        }
     },
     "theme": "dark",
     "windowingBehavior": "useExisting"
