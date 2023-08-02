@@ -1,8 +1,8 @@
 [user]
-	name = Ian Henckel
-	email = git@ianhenckel.com
+    name = Ian Henckel
+    email = git@ianhenckel.com
 [credential]
-	helper = cache
+    helper = cache
 [alias]
     co = checkout
     b = branch -a
@@ -22,13 +22,13 @@
 [push]
     default = current
 [difftool "vscode"]
-	cmd = code --wait --diff $LOCAL $REMOTE
+    cmd = code --wait --diff $LOCAL $REMOTE
 [diff]
-	tool = vscode
+    tool = vscode
 [mergetool "vscode"]
-	cmd = code --wait $MERGED
+    cmd = code --wait $MERGED
 [merge]
-	tool = vscode
+    tool = vscode
 [rebase]
     autosquash = true
 [branch]
